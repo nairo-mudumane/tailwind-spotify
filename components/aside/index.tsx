@@ -1,3 +1,9 @@
+import MainNav from "./main-nav";
+
 export function Aside() {
-  return <aside className="p-6">Aside</aside>;
+  return (
+    <aside className="p-6">
+      <MainNav />
+    </aside>
+  );
 }
